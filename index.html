@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Scrolling Nav - Start Bootstrap Template</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Brandon's 3D prints</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Frist Print</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Second Print</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Reflection</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Welcome to Brandon's 3D Prints</h1>
+                <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
+                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+            </div>
+        </header>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1>First Print: Name Tag </h1>
+                        <img class="center" src="assets/NameTag/NameTagFirst.jpg" style="width:600px;height:300px;">
+                        <p style="text-indent:30px;">After seeing the result of the name tag I think the overall process went smoothly for my first print. I did run into a few errors and minor problems during the printing mostly because I was unfamiliar with the software and machines. So first I downloaded the file for the name tag, then I opened the file in Prusa Slicer. But when it loaded it was inverted, I wasn’t sure why it happened but I just had to restart the process and it was fine after. The length of the name tag was 73mm, the width was 20mm, and the height was 3mm. After finalizing my CAD I sliced it which turned it to a CAM. I transferred the file into a USB and plugged it into a 3D printer.</p>
+                        <img class="center" src="assets/NameTag/NameTagPrinting.jpg" style="width:400px;height:300px;">
+                        <p style="text-indent:30px;">Before printing the name tag I noticed that the previous filament was not going to be enough. So I had to change the filament. I had to go to “replace filament” on the 3D printer and it will push filament out so I can put a new one in. A tip I learned on the way was to cut the new filament so it has a point on the tip before I put it in. After that it will automatically push the filament into the filament sensor, but I noticed that it didn’t push it all the way through the Extruder-Print head PTFE tube so I had keep telling the printer to continue pushing filament until it started to coming out of the nozzle.</p>
+                        <img class="center" src="assets/NameTag/NameTagLayer.jpg" style="width:450px;height:450px;">
+                        <p style="text-indent:30px;">While printing, I saw in the direction that we had to change the color of the filament half way into the print. I thought that we had to manually pause the printer at 50% but it would automatically stop to tell me to change the filament so I changed it twice during this print. You can see the photo of the name tag, it has a layer of gold in the middle.</p>
+                        <p style="text-indent:30px;">In total it took around 13 mins and it used around 4g of filament. Some trouble shooting I noticed were a little layer separation on the top right corner, it sort of melted into the print and there were a few gaps in the infill lines and gaps in the lettering. The only gaps that should be in the letters were at the bottom of the letter a, but there were gaps in the B, N, D, O, Z, and H. Overall, The most challenging physically was changing the filament and making sure it got to the nozzle. Also using the software took some time to get used too and learn how to use it.</p>
+                        <h3>Settings:</h3>
+                        <img class="center" src="assets/NameTag/NameTagSettings.png" style="width:500px;height:300px;">
+                        <ul>
+                            <li>0.20mm speed</li>
+                            <li>Prusament PLA</li>
+                            <li>Original Prusa MINI & MINI + Input Shaper</li>
+                            <li>Infill: 15%</li>
+                            <li>Scale: 100%</li>
+                            <li>Nozzle temp: 170°C</li>
+                            <li>Bed temp: 60°C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Second Print: Going Merry</h2>
+                        <img class="center" src="assets/GoingMerry/GoingMerryFront.jpg" style="width:300px;height:300px;">
+                        <p style="text-indent:30px;">For my second print I wanted to print out the boat from One Piece called the Going Merry. I thought that this print would push the printer to its limits. This is my second time printing so using the Prusa Slicer software went smoothly. I didn’t change any settings for the printer. I only scale the print to 50%. After slicing it the software gave me a warning about the stability of the object, it said it was unstable. I did notice that some parts of the print did not start from the base so sometimes the printer would print in air which I predicted would be one of the factors that would make the print fail. If the print didn’t fail it would have taken 1 hr 38 min and it would use 21.31g of filament. </p>
+                        <img class="center" src="assets/GoingMerry/GoingMerrySide.jpg" style="width:300px;height:300px;">
+                        <p style="text-indent:30px;"> In the beginning during the print it was printing smoothly, but I think towards the middle the base of the boat didn’t stick the bed very well and ended up putting building up filament in one place. I believe if I were to reprint this object I would add structures to the base and under parts where it did not touch the base so this will stabilize the print. The only trouble shooting I noticed were some minor blobs and zits on the base of the boat, but the print went pretty well until it didn’t slick to the bed where it tipped over. </p>
+                        <img class="center" src="assets/GoingMerry/GoingMerryFail.png" style="width:300px;height:300px;">
+                        <h3>Settings:</h3>
+                        <img class="center" src="assets/GoingMerry/GoingMerrySettings.png" style="width:500px;height:300px;">
+                        <ul>
+                            <li>0.20mm speed</li>
+                            <li>Prusament PLA</li>
+                            <li>Original Prusa MINI & MINI + Input Shaper</li>
+                            <li>Infill: 15%</li>
+                            <li>Scale: 50%</li>
+                            <li>Nozzle temp: 170°C</li>
+                            <li>Bed temp: 60°C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Reflection</h2>
+                        <p style="text-indent:30px;">Overall, I thought that my first 3D Printing process went out very smoothly. During the printing process I did run into some trouble and mistakes but I have learned from it through the experience. Next time I 3D print I will use the skillsI learned in this project to print out more things and less mistakes and failures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2025</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
